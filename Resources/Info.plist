@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>机箱控制台</string>
+	<key>CFBundleExecutable</key>
+	<string>OpenRGBVolume</string>
+	<key>CFBundleIconFile</key>
+	<string>Manager</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.openrgb.volume-control</string>
+	<key>CFBundleName</key>
+	<string>机箱控制台</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>使用音量键调节 USB AUDIO 音箱音量，同时保留 OpenRGB 音乐灯效。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>OpenRGB macOS Manager contributors</string>
+</dict>
+</plist>

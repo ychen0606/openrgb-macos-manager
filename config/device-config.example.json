@@ -1,0 +1,8 @@
+{
+  "speakerUID": "REPLACE_WITH_LOCAL_SPEAKER_UID",
+  "controller": {
+    "vendor": "REPLACE_WITH_VENDOR",
+    "description": "REPLACE_WITH_DESCRIPTION",
+    "serial": "REPLACE_WITH_LOCAL_CONTROLLER_SERIAL"
+  }
+}
