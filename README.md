@@ -1,11 +1,11 @@
 # OpenRGB macOS Manager · 机箱控制台
 
-一个原生 Swift / AppKit 菜单栏工具，把 **OpenRGB 机箱灯光、电脑音乐同步和音箱音量** 放进同一个管理窗口。
+一个面向 **黑苹果（Hackintosh）桌面机** 的原生 Swift / AppKit 菜单栏工具，把 **OpenRGB 机箱灯光、电脑音乐同步和音箱音量** 放进同一个管理窗口。适合在 macOS 下管理 PC 机箱 RGB 灯光，并让灯效跟随电脑播放的音乐。
 
 [![Build and check](https://github.com/ychen0606/openrgb-macos-manager/actions/workflows/build.yml/badge.svg)](https://github.com/ychen0606/openrgb-macos-manager/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Native macOS menu bar companion for OpenRGB: static lighting, music-reactive LEDs, BlackHole audio routing, and speaker volume/media keys. The interface and primary documentation are in Simplified Chinese.
+Native macOS menu bar companion for OpenRGB, designed for **Hackintosh desktops**: static case lighting, music-reactive LEDs, BlackHole audio routing, and speaker volume/media keys. The interface and primary documentation are in Simplified Chinese.
 
 ## 功能
 
@@ -23,14 +23,18 @@ Native macOS menu bar companion for OpenRGB: static lighting, music-reactive LED
 
 ## 适用范围
 
-这是从一台实际使用的电脑上整理出的项目，已验证的硬件是 **Gigabyte IT5701 机箱灯光控制器 + 双声道 USB AUDIO 音箱**。当前管理一个选定的灯光控制器及其全部区域。
+这是从一台实际使用的 **Intel 黑苹果（Hackintosh）** 上整理出的项目，已验证的硬件是 **Gigabyte IT5701 机箱灯光控制器 + 双声道 USB AUDIO 音箱**。当前管理一个选定的灯光控制器及其全部区域。
 
-- 构建目标为 macOS 12+；实际硬件验证在 macOS 26.7.1 / Intel 上完成。较旧系统和其他硬件仍需验证。
+黑苹果使用前，应先确保 macOS、USB 和音频设备工作正常，并能在 OpenRGB 中识别及控制机箱灯。兼容性取决于具体灯光控制器、USB 连接和音箱能力，“黑苹果”本身不代表硬件已经兼容。基础系统、引导和驱动配置需要由用户事先完成。
+
+- 构建目标为 macOS 12+；实际硬件验证在 macOS 26.7.1 / Intel 黑苹果上完成。较旧系统和其他硬件仍需验证。
 - 需要 **OpenRGB 1.1、SDK 协议 6、Effects Plugin 1.1**；其他版本的配置和协议兼容性没有保证。
 - 音乐模式需要 **BlackHole 2ch**，验证版本为 0.7.1。
 - 控制器需要 `Direct` 模式；音箱需要双声道输出，以及可写的主音量和静音属性。
 - 源码支持按本机标识配置设备，这不代表所有 RGB 控制器、HDMI 音频或蓝牙音箱都已兼容。
 - 本仓库提供源码构建方式，尚无经过 Apple 公证的安装包。
+
+在原生 Mac 上也可以尝试使用兼容的外接灯光与音频设备；Apple Silicon 已通过源码编译检查，实际外设控制尚未验证。
 
 ## 快速开始
 

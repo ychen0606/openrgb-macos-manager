@@ -14,7 +14,7 @@ GitHub Actions 在 macOS runner 上执行相同检查，并额外交叉编译 In
 
 ## 原始本机版本的硬件验证
 
-公开整理前的 2.0 build 4 曾在 Intel/macOS 26.7.1、Gigabyte IT5701、USB AUDIO、OpenRGB 1.1 + Effects Plugin 1.1、BlackHole 2ch 0.7.1 上完成以下实测：
+公开整理前的 2.0 build 4 曾在 Intel 黑苹果（Hackintosh）/ macOS 26.7.1、Gigabyte IT5701、USB AUDIO、OpenRGB 1.1 + Effects Plugin 1.1、BlackHole 2ch 0.7.1 上完成以下实测：
 
 - 普通和 Direct 模式的红、蓝、绿切换。
 - 同一种颜色从 100% 到 10% 明显变暗，用户目视确认。
